@@ -1,0 +1,178 @@
+ /*
+ *{border:red 4px solid} */
+ 
+ 
+ #cover{
+}
+ .title{font-family:Arial;font-size:40px;color:white;}
+ 
+ .cover{
+ height:500px;
+ background-color:rgba(3, 1, 1,0.6) ;
+ padding-top:100px;
+ 
+ }
+ 
+  .cover2{
+
+ background-color:rgba(3, 1, 1,0.6) ;
+ padding-top:100px;
+ 
+ }
+
+
+ /* this is a comment*/ 
+ .headertext{
+ font-size:27px;
+ font-family:calibri;
+ color:#fe9869;
+ text-align:center;
+ } 
+ 
+ 
+  .sub_headertext{
+ font-size:18px;
+ font-family:arial;
+ color:white;
+ text-align:justify;
+ width:50%;display:inline-block;
+ line-height:25px;
+ }
+ 
+ 
+ .headerlinks {
+  padding:25px;
+ 
+ }
+ 
+ .headerlinks a{
+ font-size:20px;
+ color:white;
+ background-color:blue;
+ font-family:arial;
+ text-decoration:none;
+ padding:10px;
+ border-radius:15px;
+ transition:  background-color 0.5;
+ } 
+ 
+ 
+  
+ .headerlinks a:hover{
+ color:blue;
+ background:white;
+}
+ .subservice{
+ 	 background-color:rgba(3, 1, 1,0.3);
+ 	 width:100%;
+ 	 margin-top:100px;
+ }
+
+ .subservice a{
+ 	width:23%;
+ 	padding:5px;
+ 	text-align:center;
+ 	color:white;
+ 	display:inline-block;
+ 	padding-top:50px;
+ 	padding-bottom:50px;
+ 	font-family:gadugi;
+ 	font-size:20px;
+ 	text-decoration:none;
+ 	 background-color:rgba(3, 1, 1,0.6);
+ border-left:solid 5px rgba(3, 1, 1,0.4);
+  border-right:solid 5px rgba(3, 1, 1,0.4);
+   border-top:solid 5px rgba(3, 1, 1,0.4);
+   transition:border 0.5s;	color 0.4s;	
+ }
+
+
+
+
+ .subservice a:hover{
+
+   border-top:solid 5px rgba(254, 97, 24,0.8);
+   color: #fe975f;
+ 	
+ }
+
+
+@media all and (max-width:1000px){
+  .subservice a{
+ 	width:20%;
+ 	font-size:12px;
+ 	font-weight:bolder; 	margin:5px;
+ }
+ 
+ 
+  .subservice a i{
+ 	width:90%;
+ 	font-size:24px; 
+ 	font-weight:bolder;
+
+ }
+ 
+ 
+ 
+}
+
+/*UTILITY SECTION*/
+.utility{ text-align:center;padding:11px 0px;}
+.usection{display:inline-block;color:white;
+font-size:17px;margin:0px 10px;}
+
+.usection i{font-size:19px;margin:0px 5px;}
+
+
+@media all and (max-width:700px){
+
+  .sub_headertext{
+ width:90%;text-align:center;
+ line-height:24px;padding:20px;
+ }
+ 
+  .title{font-family:Arial;font-size:30px;color:white;
+font-weight:bolder;  
+  }
+ 
+  .subservice a{
+ 	width:40%;
+ 	font-size:12px;
+ 	font-weight:bolder; 	margin:5px;
+ }
+ 
+ 
+  .subservice a i{
+ display:block;
+ padding:5px;
+ 	font-size:24px; 
+ 	font-weight:bolder;
+
+ }
+ 
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
